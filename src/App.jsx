@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./App.css";
 
 function App() { 
 
@@ -10,7 +11,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="login-container">
       <h1>BSGranjas</h1>
 
       <input
@@ -28,9 +29,6 @@ function App() {
       />
 
       <button onClick={handleLogin}>Entrar</button>
-
-
-
 
     </div>
   )
