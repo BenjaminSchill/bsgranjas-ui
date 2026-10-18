@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import logoImg from "./assets/logo.jpeg"
 
 function App() { 
 
@@ -12,6 +13,8 @@ function App() {
 
   return (
     <div className="login-container">
+    <img src={logoImg} alt="Logo BSGranjas" className="login-logo" />
+
       <h1>BSGranjas</h1>
 
       <input

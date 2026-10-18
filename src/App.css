@@ -2,6 +2,14 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  background-color: #1a1d26;
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #2e303a;
+  width: 100%;
+  max-width: 360px;
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 30px -10px;
 }
 
 input { 
@@ -28,4 +36,11 @@ button {
 
 button:hover { 
   background-color: #00cc6c;
+}
+
+.login-logo { 
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
 }
